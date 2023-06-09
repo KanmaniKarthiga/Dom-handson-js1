@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1 class="topheader">DOM - Document Object Model Hands-on</h1>
+    <hr>
+    <div class="content1">
+        <p>Q1. Write the code to access element which is having id as "text"</p>
+        <span id="text">Hey Prepbytes! Nice to learn Full Stack Web Development with you!</span>
+    </div>
+
+    <div class="content2">
+        <p>Q2. Write the code to access element which is having tag as "h1"</p>
+        <h1 class="q2">The element is enclosed with h1 tag here.</h1>
+    </div>
+
+    <div class="content3">
+        <p>Q3. Write the code to access element which is having class as "box"</p>
+        <div class="box"></div>
+    </div>
+
+    <div class="content4">
+        <p>Q4. Change the heading from "Hello" to "Hello World" using DOM functions</p>
+        <h1 id="changetext">Hello</h1>
+    </div>
+
+    <div class="content5">
+        <p>Q5. Create an HTML page having content as Hello world and a button named Replace Text. When user will click
+            on this button page content should be changed to "Welcome to Elevation academy"</p>
+        <h1 id="q5">Hello World!</h1>
+        <button id="replacetext" onclick="replacetext()">Replace Text</button>
+    </div>
+
+    <div class="content6">
+        <p>Q6. Add one style attribute and give text color as red and id attribute and give the id value as ""heading""
+            in the
+            above given h1 tag using DOM functions</p>
+        <h1 id="heading">Prepbytes</h1>
+    </div>
+    <p>Q7. Create three cards on HTML page and arrange them using flex property in row or horizontal direction and
+        also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards
+        arrangement should be changed to vertical direction.
+    </p>
+    <div class="content7">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <button class="directionchange" onclick="directionchange()">Change Flex Direction</button>
+    </div>
+
+    <p>Q8. What is the difference between window vs document?</p>
+    <div class="content8">
+        <div class="line1 one"></div>
+        <div class="line1 two"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+    </div>
+
+    <p>Q9. Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every
+        second</p>
+    <div id="clock">00 : 00 : 00</div>
+
+    <p>Q10. Guess my number?</p>
+    <a href="./index2.html">Guess my number</a>
+    <script src="./script.js"></script>
+</body>
+
+</html>

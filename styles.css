@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./bg.jfif);
+    background-size: cover;
+}
+.topheader{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, yellow, yellowgreen, orange);
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(161 18 25);
+    padding-top: 10px;
+}
+#text{
+    border: 2px solid peru;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    color: orangered;
+    text-shadow: black 1px 1px;
+}
+.content2{
+    position: relative;
+    top: 40px;
+}
+.q2{
+    line-height: 60px;
+    margin-left: 50px;
+}
+.content3{
+    position: relative;
+    top: 40px;
+    padding-bottom: 10px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(167, 8, 40);
+    animation: anim 2s 2 alternate;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+@keyframes anim{
+    100%{
+        height: 130px;
+        width: 130px;
+        background-color: rgb(219, 49, 100);
+    }
+}
+.content4{
+    margin-top: 50px;  
+}
+#changetext{
+    padding-top: 20px;
+    padding-left: 40px;
+    color: rgb(22, 8, 153);
+    text-shadow: rgb(90, 72, 72) 2px 2px;
+}
+.content5{
+    margin-top: 20px;
+}
+#q5{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+#replacetext{
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border: 2px solid rgb(98, 98, 196);
+    background-color: rgb(98, 98, 196);
+    margin-left: 40px;
+}
+.content6{
+    margin-top: 20px;
+}
+#heading{
+    text-align: center;
+    padding-top: 10px;
+}
+.content7{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+.box1{
+    background-color: rgb(2, 49, 45);
+    height: 100px;
+    width: 100px; 
+}
+.directionchange{
+    height: 30px;
+    width: 200px;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-left: 105px;
+}
+.content8{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    height: 320px;
+    width: 800px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.line1{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+.one{
+    font-weight: bold;
+}
+.two{
+    font-weight: bold;
+}
+#clock{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: orangered 2px 2px;
+    margin: 20px;
+    text-align: start;
+    
+}
+a{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}

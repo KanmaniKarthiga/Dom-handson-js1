@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(58, 20, 20);
+}
+.play{
+    height: 80px;
+    width: 220px;
+    font-size: 20px;
+    margin: 20px;
+}
+.hint{
+    margin: 20px;
+    float: right;
+    font-size: 40px;
+    color: white;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+hr{
+    margin-top: 80px;
+    height: 7px;
+    background-color: white;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    left: 600px;
+    top: 180px;
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    padding-top: 35px;
+}
+#message{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 750px;
+    top: 380px;
+}
+.chances{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 750px;
+    top: 440px;
+    display: flex;
+}
+#chance{
+    position: absolute;
+    left: 105px;
+    top: 5px;
+}
+#score{
+    position: absolute;
+    left: 120px;
+    top: 5px;
+}
+.highscore{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 750px;
+    top: 480px;
+    display: flex;
+}
+#number{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(58, 20, 20);
+    border: 5px solid white;
+    position: absolute;
+    left: 200px;
+    top: 360px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#check{
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 480px;
+    left: 245px;
+   
+}
